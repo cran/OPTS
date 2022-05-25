@@ -1,0 +1,6 @@
+exportPattern("^[[:alpha:]]+")
+import(MASS)
+import(cvTools)
+import(changepoint)
+importFrom("stats", "formula", "glm", "binomial", "plogis", "predict", "AIC", "BIC", "quantile", "sd")
+importFrom("changepoint", "cpt.meanvar", "cpts")
